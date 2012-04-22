@@ -1,0 +1,1 @@
+val calcul : int -> string

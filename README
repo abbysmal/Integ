@@ -1,0 +1,8 @@
+Integ est un petit projet sans prétention n'ayant eu pour but que de divertir ses deux auteurs.
+
+Il se base en un petit programme retranscrivant trois méthodes d'intégrations (méthode des rectangles, méthode des trapèzes, et méthode de Simpson) sur une intervalle de [0,1], subdivisée en n sous-intervalles. (n étant l'argument passé au programme.)
+
+Vous êtes libre de proposer vos améliorations ou vos correction, voir de nouvelles implémentations, nous serions heureux d'intégrer votre travail à l'arbre principal.
+
+Pour la licence, voir le fichier COPYING.
+Pour un peu de fun entre les diverses implémentations, voir le benchmark de référence, qui reste bien sûr à prendre avec des pincettes, mais reste assez amusant quand même. :-)
