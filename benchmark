@@ -1,0 +1,63 @@
+C       : 0.003
+Ada     : 0.003
+C++     : 0.004
+OCaml   : 0.004
+Vala    : 0.005
+D       : 0.006
+Haskell : 0.007
+Lua     : 0.009
+Genie   : 0.009
+Perl5   : 0.016
+Go      : 0.016
+PHP     : 0.017
+Ruby    : 0.023
+C#      : 0.042
+Python  : 0.057
+Java    : 0.082
+Erlang  : 0.152
+Scala   : 0.273
+Perl6   : 7.824
+
+
+---------------
+
+
+Natif:
+
+C       : 0.003 (GCC 4.7)
+Ada     : 0.003 (GNAT (GCC 4.7))
+D	: 0.003 (DMD 2.059)
+C++     : 0.004 (GCC 4.7)
+OCaml   : 0.004 (Ocamlopt 3.12.1)
+Vala    : 0.005 (Valac 0.15.2.4)
+D       : 0.006 (LDC 2.058, LLVM 3.0.)
+Haskell : 0.007 (GHC 7.4.1)
+Genie   : 0.009 (Valac 0.15.2.4)
+Go      : 0.016 (GCCGO (GCC 4.7))
+
+
+---------------
+
+
+Byte-compiled:
+
+OCamlc  : 0.007 (OCamlc 3.12.1)
+C#      : 0.042 (Mono 2.10.8.0)
+Java    : 0.082 (Javac 1.6.0_24)
+Erlang  : 0.152 (Erlang R14B04)
+Scala   : 0.273 (Scalac 2.9.1)
+
+
+---------------
+
+
+Interpreted:
+
+Luajit  : 0.005 (Luajit 2.0.0-beta9)
+Lua     : 0.009 (Lua 5.1.5)
+Perl5   : 0.016 (Perl 5.14.2)
+PHP     : 0.017 (PHP 5.3.10)
+Ruby    : 0.023 (Ruby 1.9.3)
+Python  : 0.025 (Python 2.7.2)
+Python  : 0.057 (Python 3.2.2)
+Perl6   : 7.824 (Rakudo 2010.02, Parrot 4.1.0)
