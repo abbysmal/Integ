@@ -26,7 +26,7 @@ Natif:
 
 C       : 0.003 (GCC 4.7)
 Ada     : 0.003 (GNAT (GCC 4.7))
-D	: 0.003 (DMD 2.059)
+D       : 0.003 (DMD 2.059)
 C++     : 0.004 (GCC 4.7)
 OCaml   : 0.004 (Ocamlopt 3.12.1)
 Vala    : 0.005 (Valac 0.15.2.4)
