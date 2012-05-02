@@ -4,14 +4,13 @@ MV = mv
 
 NAME = integ
 
-SRC = main.d
+SRC = integ.d
 OBJ = $(SRC:.d=.o)
 
 all: $(NAME)
 
 $(NAME): $(SRC)
 	$(DC) $^
-	$(MV) toto $@
 
 clean:
 	$(RM) $(OBJ)
