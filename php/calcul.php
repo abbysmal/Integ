@@ -22,7 +22,7 @@ function calcul_integ($f, $n)
 
     return sprintf("%.1E", rectangles($f, $n, $a, $h)) . "\t\t" .
       sprintf("%.1E", trapezes($f, $n, $a, $b, $h)) . "\t\t" .
-      sprintf("%.1E", simpson($f, $n, $a, $b, $h)) . "\t\t";
+      sprintf("%.1E", simpson($f, $n, $a, $b, $h)) . "\n";
 }
 
 function rectangles($f, $n, $a, $h)
