@@ -1,3 +1,16 @@
+Configuration:
+
+- Arch Linux
+- Kernel 3.3.4
+- Processor: Intel Core i5 750
+- Tool: time(1). Results in seconds
+
+
+---------------
+
+
+Results:
+
 C       : 0.001
 Ada     : 0.001
 OCaml   : 0.002
