@@ -6,11 +6,8 @@ if __name__ == "__main__":
     if (len(args) == 2):
         n = int(args[1])
 
-        if (n >= 10 and n <= 100):
-            calculs = calcul.calcul(n)
+        calculs = calcul.calcul(n)
 
-            sys.stdout.write(calculs)
-        else:
-            sys.stderr.write(".\n")
+        sys.stdout.write(calculs)
     else:
         sys.stderr.write("..\n")

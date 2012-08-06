@@ -93,9 +93,5 @@ func main() {
 		fmt.Println(os.Args[1], "Not an integer value")
 		return
 	}
-	if i < 10 || i > 100 {
-		fmt.Println("Bad option: precision must be between 10 and 100")
-		return
-	}
 	fmt.Print(integ_calcul(float64(i)))
 }

@@ -4,16 +4,9 @@ void main(string[] args)
     {
         int n = int.parse(args[1]);
 
-        if (n >= 10 && n <= 100)
-        {
-            string calculs = Calcul.calcul(n);
+        string calculs = Calcul.calcul(n);
 
-            GLib.stdout.printf("%s", calculs);
-        }
-        else
-        {
-            GLib.stderr.printf(".\n");
-        }
+        GLib.stdout.printf("%s", calculs);
     }
     else
     {

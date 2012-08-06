@@ -6,14 +6,7 @@ object Main
         {
             val n = args(0).toInt
 
-            if(n >= 10 && n <= 100)
-            {
-                print(Calcul.calcul(n))
-            }
-            else
-            {
-                System.err.printf(".\n")
-            }
+            print(Calcul.calcul(n))
         }
         else
         {

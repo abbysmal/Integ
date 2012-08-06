@@ -16,8 +16,7 @@ main = do
                 inner :: IO ()
                 inner
                     | n == Nothing = IO.hPutStrLn IO.stderr "..."
-                    | (Maybe.fromJust n) >= 10 && (Maybe.fromJust n) <= 100 = putStr calculs
-                    | otherwise = IO.hPutStrLn IO.stderr "."
+                    | otherwise = putStr calculs
                     where
                         n = readMaybe (args!!0)
                         calculs = Calcul.calcul (Maybe.fromJust n)

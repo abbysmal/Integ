@@ -1,7 +1,6 @@
 #!/usr/bin/env perl6
 
 sub MAIN($nb) {
-    if $nb < 10 || $nb > 100 { say "Bad option"; exit;  }
     say "n=" ~ $nb ~ "   Rectangles\tTrapezes\tSimpson";
     say "F1:    " ~ integ(1, $nb);
     say "F2:    " ~ integ(2, $nb);

@@ -98,11 +98,5 @@ then
 elseif tonumber(arg[1]) == nil then
    print "Bad option"
    return
-elseif tonumber(arg[1]) < 10 then
-   print "Bad option"
-   return
-elseif tonumber(arg[1]) > 100 then
-   print "Bad option"
-   return
 end
 main(tonumber(arg[1]))

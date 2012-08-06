@@ -11,12 +11,6 @@ void main(char[][] args)
  if (args.length < 2)
    return;
  ac = parse!int(args[1]);
- if (ac > 100 || ac < 10)
-   {
-     writeln("Bad option");
-     return;
-   }
- else
   write(calc_integ(ac));
 }
 

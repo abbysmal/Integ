@@ -74,11 +74,6 @@ static double	 simpson(int f, double n, double a, double b, double h)
 static void	start_integ(double nb)
 {
   char *str;
-  if (nb < 10 || nb > 100)
-    {
-      printf ("%s\n", "Bad option");
-      return;
-    }
   printf("%s%d%s\n", "n=", (int) nb, "   Rectangles\tTrapezes\tSimpson");
   str = integ(1, nb);
   printf("%s\t%s\n", "F1:", str);

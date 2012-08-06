@@ -11,7 +11,4 @@ main([Args]) ->
     end.
 
 inner(N) ->
-    if
-        N >= 10, N =< 100 -> io:format("~s", [calcul:calcul(N)]);
-        true -> io:format(".\n")
-    end.
+    io:format("~s", [calcul:calcul(N)]).

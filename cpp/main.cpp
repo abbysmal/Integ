@@ -9,16 +9,9 @@ int main(int argc, char **argv)
         int n = 0;
         std::stringstream(argv[1]) >> n;
 
-        if (n >= 10 && n <= 100)
-        {
-            std::string calculs = Calcul::calcul(n);
+        std::string calculs = Calcul::calcul(n);
 
-            std::cout << calculs;
-        }
-        else
-        {
-            std::cerr << "." << std::endl;
-        }
+        std::cout << calculs;
     }
     else
     {

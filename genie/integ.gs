@@ -2,7 +2,6 @@
 
 init
     if args[1] == null do return
-    if int.parse(args[1]) > 100 || int.parse(args[1]) < 10 do return
     print calc_integ (int.parse(args[1]))
 
 def calc_integ (n : int) : string

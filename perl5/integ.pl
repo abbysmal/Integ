@@ -4,7 +4,6 @@ use strict;
 use warnings;
 
 my $nb = $ARGV [0];
-if ($nb < 10 || $nb > 100) { print "Bad option\n"; exit;  }
 print "n=" . $nb . "   Rectangles\tTrapezes\tSimpson" . "\n";
 print "F1:    " . integ(1, $nb) . "\n";
 print "F2:    " . integ(2, $nb) . "\n";
